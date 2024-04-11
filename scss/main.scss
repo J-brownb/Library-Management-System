@@ -1,0 +1,311 @@
+//vendor
+@import "vendors/bootstrap";
+
+//color variables
+$primary-color: #541554;
+$secondary-color: #262228;
+$tertiary-color: #ee7b30;
+
+//general
+body {
+  background-color: #f0edee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Russo One", sans-serif;
+  padding: 10px 0px 10px;
+}
+
+h1 {
+  font-size: 40px;
+  color: $secondary-color;
+}
+
+p,
+li {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+//banner
+@media only screen and (max-width: 600px) {
+  .banner {
+    background-image: none !important;
+  }
+}
+
+.banner {
+  background-image: url("/SDDE-assignment/images/library-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  h1 {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    padding-top: 25px;
+  }
+
+  .search-select {
+    padding: 20px 0;
+  }
+
+  input {
+    width: 60%;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.intro {
+  background-color: rgba(84, 21, 84, 0.85);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+//navigation
+.navbar {
+  a,
+  a:active {
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  a:hover {
+    font-weight: 500;
+  }
+  .navbar-toggler {
+    background-color: #fff !important;
+  }
+}
+
+.nav-item {
+  margin-left: 5px;
+}
+
+//buttons
+button {
+  background-color: $primary-color !important;
+  color: #fff !important;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 10px;
+  text-transform: uppercase;
+  border-width: 0px;
+}
+button:hover {
+  color: #000 !important;
+  transition-duration: 0.5s;
+  background-color: $tertiary-color !important;
+  transition-duration: 0.5s;
+}
+
+//action buttons
+
+.destructive,
+.delete {
+  background-color: #dc3545 !important;
+  color: #fff;
+}
+
+.success {
+  background-color: #198754 !important;
+  color: #fff !important;
+}
+
+.results {
+  text-align: center;
+  box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  border-radius: 2%;
+}
+
+//colours
+.orange {
+  background-color: $tertiary-color;
+  border-radius: 50px;
+  padding: 5px;
+  color: #000 !important;
+}
+
+.orange:hover {
+  color: $primary-color !important;
+}
+
+.purple {
+  background-color: $primary-color;
+  border-radius: 50px;
+  padding: 5px;
+  color: #fff !important;
+}
+
+.purple:hover {
+  color: $tertiary-color !important;
+}
+
+//coloured buttons on mobile
+@media only screen and (max-width: 1000px) {
+  .orange,
+  .purple {
+    width: 25%;
+    text-align: center;
+    margin-bottom: 10px !important;
+  }
+}
+
+.white {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.confirmation {
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 50px;
+}
+
+//overiding default bootstrap nav tab styles
+.nav-tabs {
+  border-width: 0px;
+  padding-top: 15px;
+  justify-content: center;
+}
+
+#author-tab,
+#book-tab {
+  border-radius: 5px;
+}
+.nav-tabs .nav-link.active {
+  background-color: #ee7b30 !important;
+}
+
+.homeSearch {
+  background-color: $primary-color !important;
+}
+
+.search-select {
+  padding-bottom: 50px;
+}
+
+.search-select {
+  button {
+    background-color: #fff !important;
+    color: #000 !important;
+    padding: 12px;
+    margin: 10px;
+    text-transform: uppercase;
+    border-width: 0px;
+  }
+  button:hover {
+    color: #000 !important;
+    transition-duration: 0.5s;
+    background-color: $tertiary-color !important;
+    transition-duration: 0.5s;
+  }
+}
+
+button .active {
+  background-color: $tertiary-color !important;
+}
+
+//class for hiding items
+.hidden {
+  display: none !important;
+}
+
+//footer
+.footerhead {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fff;
+  text-align: center;
+  color: $tertiary-color;
+}
+
+footer {
+  background-color: $primary-color;
+  text-align: center;
+  color: #fff;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+footer a:hover {
+  color: $tertiary-color !important;
+}
+
+.fa-brands {
+  color: #fff;
+}
+
+.fa-brands:hover {
+  color: $tertiary-color;
+}
+
+.social-icons li {
+  display: inline-block;
+  font-size: 2rem;
+}
+
+//account page
+.account-options {
+  background-color: #fff;
+  padding: 50px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+
+  i {
+    font-size: 40px;
+    color: $primary-color;
+    padding-bottom: 10px;
+  }
+}
+
+.account-options li {
+  list-style: none;
+  text-align: left;
+  font-size: 18px;
+}
+
+//modal
+.modal-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-color: #fff !important;
+}
+
+//nav links on mob
+@media (max-width: 1000px) {
+  .navbar a {
+    margin: 5px;
+  }
+}
+
+//Link styling
+a {
+  color: $primary-color;
+}
+
+.navbar a {
+  color: #000;
+}
+
+footer a {
+  color: #fff;
+}
