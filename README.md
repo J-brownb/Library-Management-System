@@ -32,4 +32,3 @@ This project is a Library Management System developed as part of the 2nd year SD
 - **index.php**: Main entry point of the application.
 - **package-lock.json**: Locks the versions of npm dependencies.
 - **package.json**: npm configuration file for JavaScript dependencies.
-- **reporting.html**: HTML file for generating reports.
