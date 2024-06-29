@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a Library Management System developed as part of the 2nd year SDDE (Software Development and Digital Engineering) Assignment. The system is designed to manage library operations including user management, book cataloging, and transaction handling. The project utilizes a combination of PHP, CSS, HTML, and SCSS.
+This project is a Library Management System developed as part of the 2nd year SDDE (Software Development and Digital Engineering) Assignment. The system is designed to manage library operations including user management, book cataloging, and transaction handling. The project utilises a combination of PHP, CSS, HTML, and SCSS.
 
 ## Features
 
